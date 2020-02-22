@@ -1,9 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@mdi/font/css/materialdesignicons.css';
 :root
 {
   --bg-blue:#0a1b5d;
   --bg-purple:#24035f;
+  --bg-color:#131417;
+  --bgl-color:#1a1b1f;
+  --bdr-color: #27232f;
+  --bd-color: #403f3f;
+  --white: #fff;
+  --txt-hover:#e0b306;
+  --text-grey:#6f6f6f;
 }
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { 
+  margin: 0;
+  font-family: 'SofiaProBlack';
+  background-color: var(--bgl-color);
+}
+a,a:hover
+{
+  color: inherit;
+}
+@font-face
+{
+  src: url('./assets/fonts/SofiaProLight.ttf');
+  font-family: 'SofiaProLight';
+}
+@font-face
+{
+  src: url('./assets/fonts/SofiaProBlack.ttf');
+  font-family: 'SofiaProBlack';
+}
+@font-face
+{
+  src: url('./assets/fonts/SofiaProUltraLight.ttf');
+  font-family: 'SofiaProUltraLight';
+}

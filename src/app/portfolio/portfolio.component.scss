@@ -1,0 +1,19 @@
+.wp-portfolio
+{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    color: var(--white);
+    padding-top: 15vh;
+}
+/*.wp-portfolio::after
+{
+    content: '';
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url(../../assets/images/texture-bg-overlay.png);
+    border-left: 1px solid #131417;
+}*/

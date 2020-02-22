@@ -1,6 +1,70 @@
 .header
 {
-  // background-color: #1d1e22;
-  background-color: #131417;
+  background-color: var(--bg-color);
   height: 100vh;
+  border-bottom: 1px solid var(--bdr-color);
+
+  .header-inner
+  {
+    padding: 3vh 7.5vw;
+    color: var(--white);
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    .email-me
+  {
+    font-family: 'SofiaProBlack';
+    color: var(--white);
+  span
+  {
+    color: var(--text-grey);
+  }
+  a
+  {
+    color: #fff;
+  }
+  a:hover
+  {
+    color: var(--txt-hover);
+  }
+}
+  }
+  .header-text
+  {
+    h1
+    {
+      font-family: "SofiaProBlack";
+    }
+    p
+    {
+      font-family: 'SofiaProLight';
+      font-size: 20px;
+    }
+  }
+  .cr-location
+  {
+    display: flex;
+  }
+  .cr-location > span
+  {
+    font-size: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+  }
+  .lc-name
+  {
+    display: flex;
+    flex-direction: column;
+    font-family: 'SofiaProBlack';
+    span
+    {
+      color: var(--text-grey);
+      line-height: 1;
+      font-size: 14px;
+    }
+  }
+
 }

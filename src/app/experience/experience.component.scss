@@ -1,0 +1,52 @@
+.wp-experience
+{
+    background-color: var(--bg-color);
+    width: 100%;
+    min-height: 100vh;
+    color: #fff;
+    .exp-section
+    {
+        display: flex;
+        flex-direction: column;
+        padding-top: 15vh;
+        p{
+        font-family: "SofiaProLight";
+        font-size: 20px;
+        }
+    }
+    .wp-worked
+    {
+        width: 100%;
+        padding-top: 15vh;
+    .work-item
+    {
+        margin-bottom: 1rem;
+        padding: 15px;
+        background-color: var(--bgl-color);
+        border: 1px solid var(--bdr-color);
+        border-radius: 4px;
+    .wr-time
+    {
+        color: var(--warning);
+        line-height: 1;
+    }
+    .wr-company
+    {
+        color: var(--gray);
+        line-height: 1;
+        font-size: 16px;
+    }
+    
+    .wr-description
+    {
+        font-family: "SofiaProLight";
+        font-size: 16px;
+        margin-bottom: 0;
+        strong
+        {
+        font-family: "SofiaProBlack";
+        }
+    }
+    }
+    }
+}
