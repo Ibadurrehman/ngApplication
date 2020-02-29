@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { $ } from 'protractor';
 
 @Component({
   selector: 'app-header',
@@ -16,3 +17,4 @@ constructor() { }
   }
 
 }
+

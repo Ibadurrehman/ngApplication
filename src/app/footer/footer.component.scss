@@ -1,0 +1,55 @@
+
+.footer-container
+{
+    float: left;
+    width: 100%;
+    background-color: var(--bg-color);
+    padding: 50px 0px;
+    color: var(--white);
+    text-align: center;
+}
+.projects-block
+{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.projects-div
+{
+    width: 100%;
+    height: auto;
+    height: 480px;
+    background-color: #100e17;
+    max-width: 760px;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+    padding: 1px;
+}
+.projects-div > img
+{
+    object-position: center;
+    object-fit: cover;
+        height: 100%;
+}
+.btn-right
+{
+    float: right;
+}
+.footer-para
+{
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    line-height: 1.2em;
+    font-family: "SofiaProLight";
+    color: #fff;
+    text-align: center;
+}
+.email-contact, .email-contact:hover
+{
+    color: #fff;
+}
+.mdi-clr
+{
+    color: var(--text-lgreen);
+}

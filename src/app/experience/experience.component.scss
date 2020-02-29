@@ -4,6 +4,7 @@
     width: 100%;
     min-height: 100vh;
     color: #fff;
+    border-bottom: 1px solid var(--bdr-color);
     .exp-section
     {
         display: flex;
@@ -11,7 +12,8 @@
         padding-top: 15vh;
         p{
         font-family: "SofiaProLight";
-        font-size: 20px;
+        font-size: 18px;
+        color: var(--text-light);
         }
     }
     .wp-worked
@@ -27,12 +29,12 @@
         border-radius: 4px;
     .wr-time
     {
-        color: var(--warning);
+        color: var(--text-lgreen);
         line-height: 1;
     }
     .wr-company
     {
-        color: var(--gray);
+        color: var(--text-light);
         line-height: 1;
         font-size: 16px;
     }
@@ -42,6 +44,7 @@
         font-family: "SofiaProLight";
         font-size: 16px;
         margin-bottom: 0;
+        color: var(--text-light);
         strong
         {
         font-family: "SofiaProBlack";

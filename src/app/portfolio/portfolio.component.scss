@@ -4,16 +4,36 @@
     min-height: 100vh;
     position: relative;
     color: var(--white);
-    padding-top: 15vh;
+    padding: 15vh 0;
+    border-bottom: 1px solid var(--bdr-color);
+
+    .pro_items
+    {
+        width: 100%;
+        min-height: 360px;
+        background-color: var(--bg-color);
+        flex-basis: 50%;
+        border: .1vw solid var(--bg-color);
+        position: relative;
+        // &::before, &::after
+        // {
+        //     content: '';
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        //     right: 0;
+        //     height: 50%;
+        //     background-color: rgba(29, 36, 50, 0.6);
+        // }
+        // &::after
+        // {
+        //     bottom: 0;
+        //     top: auto;
+        // }
+        img
+        {
+            width: 100%;
+            height: auto;
+        }
+    }
 }
-/*.wp-portfolio::after
-{
-    content: '';
-    width: 50%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-image: url(../../assets/images/texture-bg-overlay.png);
-    border-left: 1px solid #131417;
-}*/

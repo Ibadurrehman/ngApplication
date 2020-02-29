@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { MenuComponent } from './menu/menu.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +19,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     AboutComponent,
     ExperienceComponent,
     PortfolioComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
