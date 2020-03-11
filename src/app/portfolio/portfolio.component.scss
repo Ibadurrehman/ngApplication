@@ -15,21 +15,6 @@
         flex-basis: 50%;
         border: .1vw solid var(--bg-color);
         position: relative;
-        // &::before, &::after
-        // {
-        //     content: '';
-        //     position: absolute;
-        //     top: 0;
-        //     left: 0;
-        //     right: 0;
-        //     height: 50%;
-        //     background-color: rgba(29, 36, 50, 0.6);
-        // }
-        // &::after
-        // {
-        //     bottom: 0;
-        //     top: auto;
-        // }
         img
         {
             width: 100%;
