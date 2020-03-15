@@ -12,7 +12,6 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { MenuComponent } from './menu/menu.component';
 import { WorkComponent } from './work/work.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { MenubarComponent } from './menubar/menubar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,8 +24,7 @@ import { MenubarComponent } from './menubar/menubar.component';
     MenuComponent,
     WorkComponent,
     ApplicationRouting,
-    PageNotFoundComponent,
-    MenubarComponent
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

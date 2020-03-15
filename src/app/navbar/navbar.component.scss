@@ -64,3 +64,25 @@
         }
     }
 }
+.menu-links
+{
+    ul{
+        list-style: none;
+        padding-left: 0;
+        color: var(--text-light);
+        margin: 0;
+        transform: rotate(-90deg);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        width: 230px;
+    li{
+    a{
+        display: block;
+    &:hover{
+        color: var(--white);
+    }
+    }
+    }
+    }
+}

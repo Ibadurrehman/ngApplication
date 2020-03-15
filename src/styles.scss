@@ -7,6 +7,7 @@
 {
   --bg-blue:#0a1b5d;
   --bg-purple:#24035f;
+  --bg-nxt:#052b75;
   /*
   --bg-color:#131417;
   --bgl-color:#1a1b1f;
@@ -25,7 +26,9 @@
   --txt-hover:#e0b306;
   --text-grey:#6f6f6f;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 html, body { height: 100%; }
 body { 
   margin: 0;
